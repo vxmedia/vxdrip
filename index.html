@@ -2,9 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>VXDRIP</title>
+  <title>VXDRIP — Observed, not staged.</title>
+
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="VXDRIP — Las Vegas street fashion. Observed, not staged." />
+  <meta name="description" content="VXDRIP is Las Vegas street fashion, observed in real time — never staged, never posed." />
+
+  <!-- Open Graph / Social Preview -->
+  <meta property="og:title" content="VXDRIP — Observed, not staged." />
+  <meta property="og:description" content="Las Vegas street fashion, captured as it happens." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://vxdrip.com" />
+  <meta property="og:image" content="https://vxdrip.com/og.jpg" />
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="VXDRIP — Observed, not staged." />
+  <meta name="twitter:description" content="Las Vegas street fashion, observed in real time." />
+  <meta name="twitter:image" content="https://vxdrip.com/og.jpg" />
+
   <style>
     body {
       margin: 0;
@@ -15,11 +30,50 @@
       align-items: center;
       justify-content: center;
       height: 100vh;
+      text-align: center;
       letter-spacing: 0.06em;
+    }
+    .wrap {
+      max-width: 720px;
+      padding: 24px;
+    }
+    h1 {
+      font-size: 48px;
+      margin: 0 0 12px;
+    }
+    p {
+      opacity: 0.75;
+      margin: 0 0 28px;
+    }
+    .links a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 12px;
+      opacity: 0.85;
+    }
+    .links a:hover {
+      opacity: 1;
+    }
+    .contact {
+      margin-top: 28px;
+      font-size: 14px;
+      opacity: 0.6;
     }
   </style>
 </head>
 <body>
-  <h1>VXDRIP</h1>
+  <div class="wrap">
+    <h1>VXDRIP</h1>
+    <p>Observed, not staged.</p>
+
+    <div class="links">
+      <a href="https://youtube.com/@vxdrip" target="_blank">YouTube</a>
+      <a href="https://instagram.com/vxdrip" target="_blank">Instagram</a>
+    </div>
+
+    <div class="contact">
+      Press / Contact: <a href="mailto:contact@vxdrip.com">contact@vxdrip.com</a>
+    </div>
+  </div>
 </body>
 </html>
