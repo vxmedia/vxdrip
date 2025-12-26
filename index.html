@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +5,7 @@
 
   <!-- Primary SEO -->
   <title>VXDRIP — Fashion observed, not performed.</title>
-  <meta name="description" content="VXDRIP documents Las Vegas street fashion as it exists — observed, not staged, not performed." />
+  <meta name="description" content="VXDRIP documents street fashion through Las Vegas — with an editorial eye influenced by Paris and Milan. Observed, not staged." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://vxdrip.com/" />
 
@@ -16,7 +15,7 @@
   <!-- Open Graph -->
   <meta property="og:site_name" content="VXDRIP" />
   <meta property="og:title" content="VXDRIP — Fashion observed, not performed." />
-  <meta property="og:description" content="Las Vegas street fashion, documented as it exists. No staging. No performance." />
+  <meta property="og:description" content="Street fashion documented through Las Vegas — editorial influence from Paris and Milan. No staging. No performance." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://vxdrip.com/" />
   <meta property="og:image" content="https://vxdrip.com/og.jpg" />
@@ -26,7 +25,7 @@
   <!-- Twitter / X -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="VXDRIP — Fashion observed, not performed." />
-  <meta name="twitter:description" content="Las Vegas street fashion, documented as it exists." />
+  <meta name="twitter:description" content="Street fashion documented through Las Vegas — editorial influence from Paris and Milan." />
   <meta name="twitter:image" content="https://vxdrip.com/og.jpg" />
 
   <!-- Favicon -->
@@ -57,7 +56,13 @@
     }
     h1 {
       font-size: 56px;
-      margin: 0 0 12px;
+      margin: 0 0 10px;
+    }
+    .cities {
+      font-size: 14px;
+      opacity: 0.70;
+      margin: 0 0 18px;
+      letter-spacing: 0.18em;
     }
     p {
       opacity: 0.75;
@@ -85,20 +90,30 @@
     .contact a:hover {
       opacity: 1;
     }
+
+    /* Mobile polish */
+    @media (max-width: 480px) {
+      h1 { font-size: 44px; }
+      .cities { font-size: 12px; }
+      .links a { margin: 0 10px; }
+    }
   </style>
 </head>
 
 <body>
   <div class="wrap">
     <h1>VXDRIP</h1>
+
+    <!-- NEW: City line (global signal without claiming offices) -->
+    <div class="cities">PARIS · MILAN · LAS VEGAS</div>
+
     <p>Fashion observed, not performed.</p>
 
-   <div class="links">
-  <a href="https://youtube.com/@vxdrip" target="_blank" rel="noopener">YouTube</a>
-  <a href="https://instagram.com/vxdrip.tv" target="_blank" rel="noopener">Instagram</a>
-  <a href="https://tiktok.com/@vxdrip.archive" target="_blank" rel="noopener">TikTok</a>
-</div>
-    
+    <div class="links">
+      <a href="https://youtube.com/@vxdrip" target="_blank" rel="noopener">YouTube</a>
+      <a href="https://instagram.com/vxdrip.tv" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://tiktok.com/@vxdrip.archive" target="_blank" rel="noopener">TikTok</a>
+    </div>
 
     <div class="contact">
       Press / Contact:
