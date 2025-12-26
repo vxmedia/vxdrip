@@ -68,15 +68,21 @@
       opacity: 0.75;
       margin: 0 0 28px;
     }
+
+    /* ↓↓↓ MINOR TOUCH-UP (#2) ↓↓↓ */
     .links a {
       color: #fff;
       text-decoration: none;
-      margin: 0 12px;
-      opacity: 0.85;
+      margin: 0 10px;
+      font-size: 13px;
+      opacity: 0.65;
+      transition: opacity 0.2s ease;
     }
     .links a:hover {
-      opacity: 1;
+      opacity: 0.95;
     }
+    /* ↑↑↑ END TOUCH-UP ↑↑↑ */
+
     .contact {
       margin-top: 28px;
       font-size: 14px;
@@ -95,7 +101,7 @@
     @media (max-width: 480px) {
       h1 { font-size: 44px; }
       .cities { font-size: 12px; }
-      .links a { margin: 0 10px; }
+      .links a { margin: 0 8px; }
     }
   </style>
 </head>
@@ -104,7 +110,6 @@
   <div class="wrap">
     <h1>VXDRIP</h1>
 
-    <!-- NEW: City line (global signal without claiming offices) -->
     <div class="cities">PARIS · MILAN · LAS VEGAS</div>
 
     <p>Fashion observed, not performed.</p>
@@ -122,3 +127,4 @@
   </div>
 </body>
 </html>
+
