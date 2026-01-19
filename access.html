@@ -38,25 +38,59 @@
       letter-spacing: 0.18em;
       margin-bottom: 18px;
     }
-
-    /* OPTION 3 APPLIED HERE */
     .text {
-      max-width: 600px;
-      margin: 0 auto 30px auto; /* centers block & adds spacing */
       opacity: 0.8;
       font-size: 14px;
       line-height: 1.7;
-      text-align: center;
+      margin-bottom: 30px;
     }
-    .text p {
-      margin-bottom: 20px;
+    .back {
+      font-size: 12px;
+      opacity: 0.6;
+      margin-top: 10px;
     }
+    .back a {
+      color: #fff;
+      text-decoration: none;
+      border-bottom: 1px solid rgba(255,255,255,0.25);
+      padding-bottom: 2px;
+    }
+    .back a:hover {
+      opacity: 0.9;
+      border-color: rgba(255,255,255,0.45);
+    }
+  </style>
+</head>
 
-    .button-coordinates {
-      display:inline-block;
-      padding:10px 18px;
-      border:1px solid #C8C8C8;
-      color:#C8C8C8;
-      text-decoration:none;
-      font-family:Arial, Helvetica, sans-serif;
-      font-size:14px
+<body>
+  <div class="wrap">
+    <div class="label">ACCESS</div>
+
+    <div class="title">INVITATION ONLY</div>
+
+    <div class="text">
+   <div class="text" style="text-align:center;">
+      Access to the VXDRIP back channel is by invitation only.<br />
+      Invitations are issued, not requested.<br /><br />
+      QR credentials and access tokens are bound to specific cycles.<br />
+      Keys can expire. Presence doesn’t guarantee re-issue.<br /><br />
+     <a href="/coordinates" style="
+  display:inline-block;
+  padding:10px 18px;
+  border:1px solid #C8C8C8;
+  color:#C8C8C8;
+  text-decoration:none;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:14px;
+  letter-spacing:0.5px;
+">
+  Record Coordinates →
+</a>
+
+    </div>
+
+    <div class="back">
+      <a href="/">Front Channel</a>
+    </div>
+  </div>
+</body>
