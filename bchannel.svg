@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
+  <style>
+    .main { fill:#EAFBF8; font-family:"Times New Roman","Georgia",serif; font-size:38px; letter-spacing:0.32em; }
+    .sub  { fill:#EAFBF8; font-family:"Times New Roman","Georgia",serif; font-size:14px; letter-spacing:0.32em; }
+  </style>
+  <g text-anchor="middle" transform="translate(200,40)">
+    <text class="main" y="0">VXDRIP</text>
+    <text class="sub"  y="30">BACKCHANNEL</text>
+  </g>
+</svg>
